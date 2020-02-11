@@ -28,7 +28,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rs">
+    <configuration name="rs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rs.py" />
+      <option name="PARAMETERS" value="60000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,8 +71,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.rs" />
+      <item itemvalue="Python.ts" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rs" />
         <item itemvalue="Python.ts" />
       </list>
     </recent_temporary>
@@ -82,33 +108,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581306842673">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581390096079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581306842673" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581390096079" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1581269200051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581269200051" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1581353504778">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1581390098341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581353504778" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1581353504778">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1581390098341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581353504778" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1581353504777">
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1581390098341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581353504777" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1581353504778">
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1581390098341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581353504778" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1581276400384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581276400384" />
+    <state x="891" y="837" width="700" height="530" key="recent.locations.popup" timestamp="1581357191171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="891" y="837" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1581357191171" />
   </component>
 </project>
