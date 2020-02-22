@@ -67,7 +67,7 @@ def client():
 
     f = open("RESOLVED.txt", "w+")
     for line in result:
-        f.write("%s\r\n" % (line))
+        f.write("%s\n" % (line))
 
     #for line in result:
      #   print(line)
