@@ -28,7 +28,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.rs">
+  <component name="RunManager" selected="Python.client">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
+      <option name="PARAMETERS" value="localhost 65001 65000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,7 +63,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rs.py" />
-      <option name="PARAMETERS" value="60000" />
+      <option name="PARAMETERS" value="65001" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -57,13 +78,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\devin\OneDrive\Desktop\Comp Sci\Tutorials\python2\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ts.py" />
-      <option name="PARAMETERS" value="60000" />
+      <option name="PARAMETERS" value="65000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -72,11 +93,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.client" />
       <item itemvalue="Python.rs" />
       <item itemvalue="Python.ts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.client" />
         <item itemvalue="Python.rs" />
         <item itemvalue="Python.ts" />
       </list>
@@ -108,34 +131,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581390096079">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582408196733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581390096079" />
-    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1581269200051">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582408196733" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1582404945223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581269200051" />
-    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1581390098341">
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582404945223" />
+    <state width="1515" height="176" key="GridCell.Tab.0.bottom" timestamp="1582411526574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
-    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1581390098341">
+    <state width="1515" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582411526574" />
+    <state width="1515" height="176" key="GridCell.Tab.0.center" timestamp="1582411526573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
-    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1581390098341">
+    <state width="1515" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582411526573" />
+    <state width="1515" height="176" key="GridCell.Tab.0.left" timestamp="1582411526573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
-    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1581390098341">
+    <state width="1515" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582411526573" />
+    <state width="1515" height="176" key="GridCell.Tab.0.right" timestamp="1582411526574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581390098341" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1581276400384">
+    <state width="1515" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582411526574" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1581462078383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581276400384" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581462078383" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582148340372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1582148340372" />
     <state x="891" y="837" width="700" height="530" key="recent.locations.popup" timestamp="1581357191171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -12,7 +12,8 @@ for line in DNSRS:
     if entry[2]=="NS":
         TSHostname = entry[0]
     else:
-        DNS_TABLE[entry[0]] = (entry[1],entry[2])
+        DNS_TABLE[entry[0].lower()] = (entry[1],entry[2])
+
 
 try:
     rs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -23,20 +24,24 @@ except socket.error as err:
 server_binding = ('', int(sys.argv[1]))
 rs.bind(server_binding)
 rs.listen(1)
-csockid = rs.accept()
 while 1:
 
-    data = csockid.recv(200)
-    if data:
-        if data in DNS_TABLE:
-            csockid.send(data.encode('utf-8')+" ".encode('utf-8')+(DNS_TABLE[data])[0].encode('utf-8')+" ".encode('utf-8')+(DNS_TABLE[data])[1].encode('utf-8'))
+    connection,client = rs.accept()
+    while 1:
+
+        data = connection.recv(200)
+        data = data.lower()
+        if data:
+            print(data)
+            if data in DNS_TABLE:
+                connection.send(data.encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data])[0].encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data])[1].encode('utf-8'))
+            else:
+                connection.send(TSHostname.encode('utf-8') + " - NS".encode('utf-8'))
+
         else:
-            csockid.send(TSHostname.encode('utf-8')+" - NS".encode('utf-8'))
+            break
 
-    else:
-        break
-
-rs.close()
+    rs.close()
 
 exit()
 
