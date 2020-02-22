@@ -64,9 +64,12 @@ def client():
 
         cs2.close()
 
+
     f = open("RESOLVED.txt", "w+")
     for line in result:
         f.write("%s\r\n" % (line))
+
+    for line in result:
         print(line)
     exit()
 
