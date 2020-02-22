@@ -69,8 +69,8 @@ def client():
     for line in result:
         f.write("%s\r\n" % (line))
 
-    for line in result:
-        print(line)
+    #for line in result:
+     #   print(line)
     exit()
 
 HNS = open("PROJI-HNS.txt","r")
