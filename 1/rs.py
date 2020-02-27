@@ -16,7 +16,7 @@ for line in DNSRS:
         #TS hostname set
         TSHostname = entry[0]
     else:
-        DNS_TABLE[entry[0].lower()] = (entry[1],entry[2])
+        DNS_TABLE[entry[0].lower()] = (entry[1],entry[2],entry[0])
 
 #open socket
 try:
@@ -34,12 +34,11 @@ while 1:
     while 1:
         #wait for query
         data = connection.recv(200)
-        data = data.lower()
+        
         if data:
-            print(data)
-            if data in DNS_TABLE:
+            if data.lower() in DNS_TABLE:
                 #if hostname exists, return hostname+ip,type
-                connection.send(data.encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data])[0].encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data])[1].encode('utf-8'))
+                connection.send((DNS_TABLE[data.lower()])[2].encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data.lower()])[0].encode('utf-8') + " ".encode('utf-8') + (DNS_TABLE[data.lower()])[1].encode('utf-8'))
             else:
                 #if doesnt exist, return host of TS and NS type
                 connection.send(TSHostname.encode('utf-8') + " - NS".encode('utf-8'))

@@ -1,9 +1,6 @@
 kill.cs.rutgers.edu
 mx.rutgers.com
 www.ibm.edu
-grep.cs.princeton.edU
 google.com
-yeet.com
-qtsdatacenter.AWS.com
 www.google.com
 MX.RUTGERS.EDU
