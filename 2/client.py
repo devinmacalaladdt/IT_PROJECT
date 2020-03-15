@@ -23,8 +23,12 @@ cs.connect(server_binding)
 HNS = open("PROJ2-HNS.txt","r")
 for line in HNS:
     #send hostname to LS
+    #if it ends in newline, remove it
+    if line[len(line)-1]=='\n':
+        line = line[:-1]
     cs.send(line.encode('utf-8'))
     data_from_server = cs.recv(200)
+    #write response to output file
     f.write("%s\n" % (data_from_server))
 exit()
 
