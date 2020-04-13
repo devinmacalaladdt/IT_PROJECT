@@ -5,7 +5,7 @@
 1. Briefly discuss how you implemented the LS functionality of
    tracking which TS responded to the query and timing out if neither
    TS responded.
-    We used non-blocking sockets to track which TS responded.
+    We used non-blocking sockets, specifically select() to track which TS responded as well as give a timeout of 5 sec for no responses. 
     
 2. Are there known issues or functions that aren't working currently in your
    attached code? If so, explain.
