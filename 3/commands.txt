@@ -6,5 +6,7 @@ r1 ip addr add dev r1-eth1 10.0.0.1/32
 r1 ip addr add dev r1-eth2 192.168.0.1/32
 r1 ip addr add dev r1-eth3 10.0.0.3/32
 r1 ip addr add dev r1-eth4 192.168.0.3/32
-
-
+h1 ip route add default via 10.0.0.2/32
+h2 ip route add default via 192.168.0.2/32
+h3 ip route add default via 10.0.0.4/32
+h4 ip route add default via 192.168.0.4/32
